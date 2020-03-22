@@ -1,20 +1,32 @@
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: #ffff00
   }
+body{
+    background-color: #996633;
+}
   
 .label {
     font-weight: bold;
   }
   
-.create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
 .form-group {
     margin-bottom: 5px;
+    background: #ff0000;
   }
-  
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.center {
+  padding: 10px 0;
+  text-align: center;
+}
